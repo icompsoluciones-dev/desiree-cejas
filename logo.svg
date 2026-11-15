@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 92" role="img" aria-labelledby="title description">
+  <title id="title">Desiree</title>
+  <desc id="description">Tu mirada perfecta</desc>
+  <circle cx="46" cy="46" r="41" fill="#ffedf5" />
+  <path
+    d="M17 47c7.8-11.1 17.5-16.7 29-16.7S67.2 35.9 75 47c-7.8 11.1-17.5 16.7-29 16.7S24.8 58.1 17 47Z"
+    fill="#fffaf8"
+    stroke="#d41470"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="3.5"
+  />
+  <circle cx="46" cy="47" r="9" fill="#d41470" />
+  <circle cx="46" cy="47" r="4" fill="#291722" />
+  <path
+    d="m29 32-4-5m13 1-1-6m25 10 4-5m-13 1 1-6"
+    fill="none"
+    stroke="#d41470"
+    stroke-linecap="round"
+    stroke-width="2.5"
+  />
+  <path d="M19 72h54" stroke="#c69b50" stroke-linecap="round" stroke-width="2" />
+  <text
+    x="101"
+    y="52"
+    fill="#d41470"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="44"
+    font-weight="700"
+  >Desiree</text>
+  <text
+    x="104"
+    y="76"
+    fill="#735e68"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    font-weight="700"
+    letter-spacing="3.1"
+  >TU MIRADA PERFECTA</text>
+</svg>

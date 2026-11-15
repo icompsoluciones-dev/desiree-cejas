@@ -77,14 +77,21 @@
         gap: 15px;
       }
       .brand {
-        font: 700 1.7rem "Playfair Display";
-        color: var(--p);
-      }
-      .brand small {
         display: block;
-        color: var(--muted);
-        font: 600 0.65rem "DM Sans";
-        letter-spacing: 0.13em;
+        flex-shrink: 0;
+        width: 178px;
+      }
+      .brand img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .footLogo {
+        display: block;
+        width: 210px;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 8px;
       }
       .links {
         display: flex;
@@ -371,6 +378,9 @@
         }
       }
       @media (max-width: 430px) {
+        .brand {
+          width: 150px;
+        }
         .why {
           grid-template-columns: 1fr;
         }
@@ -411,9 +421,9 @@
     <header>
       <div class="wrap">
         <nav>
-          <a class="brand" href="#inicio"
-            >Desiree <small>TU MIRADA PERFECTA</small></a
-          >
+          <a class="brand" href="#inicio" aria-label="Desiree, inicio">
+            <img src="logo.svg" alt="" />
+          </a>
           <div class="links">
             <a href="#servicios">Servicios</a><a href="#precios">Precios</a
             ><a href="#promos">Promociones</a><a href="#contacto">Contacto</a>
@@ -682,8 +692,12 @@
     <footer>
       <div class="wrap foot">
         <div>
-          <strong>Desiree · Tu mirada perfecta</strong><br />Servicios de cejas
-          y pestañas en La Victoria, Aragua, Venezuela.
+          <img
+            class="footLogo"
+            src="logo.svg"
+            alt="Desiree · Tu mirada perfecta"
+          />
+          Servicios de cejas y pestañas en La Victoria, Aragua, Venezuela.
         </div>
         <div>
           Instagram: @tumiradaperfecta_desiree<br />© 2026 · Todos los derechos
